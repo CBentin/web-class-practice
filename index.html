@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head> (Info about html)
+        <title>
+            Class exercise 1
+        </title>
+        <meta charset="UTF-8"/> 
+    </head> 
+    <body>
+        <h1>Registry Form</h1>
+        <ul class = "item">
+            <li>
+                Home
+            </li>
+            <li>
+                About this site
+            </li>
+            <li>
+                Registry
+            </li>
+            <li>
+                Contact
+            </li>
+            <li>
+                Copyright
+            </li>
+        </ul>
+        <form>
+            <fieldset>
+                <legend> New account registry </legend>
+                Your information is safe with us.
+                <div>
+                <label for="completeName">Complete name</label>
+                </div>
+                <div>
+                <input type = "text" id="completeName"/>
+                </div>
+                <div>
+                <label for="email">Email</label>
+                </div>
+                <div>
+                <input type = "text" id="email"/>
+                </div>
+                <div>
+                <label for="password">Password</label>
+                </div>
+                <input type = "password" id="password"/>
+                </div>
+                <label for="passwordconf">Password confirmation</label>
+                <br>
+                <input type = "password" id="passwordconf"/>
+                <div>
+                Country
+                </div>
+                <select>
+                    <option value ="MX">
+                        Mexico
+                    </option>
+                    <option value = "FR">
+                        France
+                    </option>
+                    <option value ="US">
+                        USA
+                    /</option>
+                    <option value = "DE">
+                        Germany
+                    </option>
+                    <option value ="CA">
+                        Canada
+                    </option>
+                </select>
+                <div>
+                <input id="male" input type="radio" name="sex"/>
+                <label for="male">Male</label>
+                </div>
+                <div>
+                <input id="female" input type="radio" name="sex"/>
+                <label for="female">Female</label>
+                </div>
+                <br>
+                <br>
+                <button type="submit">
+                    Submit
+                </button>
+                <button type="cancel">
+                    Cancel
+                </button>
+            </fieldset>
+        </form>
+    </body>
+</html>
